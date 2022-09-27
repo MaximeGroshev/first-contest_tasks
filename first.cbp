@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="first" />
+		<Option pch_mode="2" />
+		<Option compiler="not_for_projects__mingw_gcc__strict__fast__save_requires_git" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/first" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="not_for_projects__mingw_gcc__strict__fast__save_requires_git" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/first" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="not_for_projects__mingw_gcc__strict__fast__save_requires_git" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ee.cpp" />
+		<Unit filename="eight.cpp" />
+		<Unit filename="ereer.cpp" />
+		<Unit filename="fifth.cpp" />
+		<Unit filename="final.cpp" />
+		<Unit filename="fourth.cpp" />
+		<Unit filename="grgrg.cpp" />
+		<Unit filename="nineth.cpp" />
+		<Unit filename="second_task.cpp" />
+		<Unit filename="seventh.cpp" />
+		<Unit filename="sixth.cpp" />
+		<Unit filename="task.cpp" />
+		<Unit filename="third.cpp" />
+		<Unit filename="yty.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
