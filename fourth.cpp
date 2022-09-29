@@ -20,7 +20,7 @@ int main()
 			scanf("%c", &arr[i][j]);
 			if(arr[i][j] == '\n')
 			{
-                  arr[i][j] = '\0';
+                arr[i][j] = '\0';
 			}
 		}
 	}
