@@ -31,7 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ee.cpp" />
+		<Unit filename="../../../array/array.cpp" />
+		<Unit filename="../../../array/array_second_task.cpp" />
 		<Unit filename="eight.cpp" />
 		<Unit filename="ereer.cpp" />
 		<Unit filename="fifth.cpp" />
