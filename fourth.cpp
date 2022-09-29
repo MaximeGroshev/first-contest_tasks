@@ -2,7 +2,8 @@
 #include <stdlib.h>
 // fourth task
 
-int main() {
+int main()
+{
 
 	char arr[20][20];
 	char trans_arr[20][20];
