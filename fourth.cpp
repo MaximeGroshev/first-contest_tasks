@@ -12,8 +12,10 @@ int main() {
 
 	scanf("%d %d", &line, &column);
 
-	for(int i = 0; i < line; i++) {
-		for(int j = 0; j <= column; j++) {
+	for(int i = 0; i < line; i++)
+	{
+		for(int j = 0; j <= column; j++)
+        {
 			scanf("%c", &arr[i][j]);
 			if(arr[i][j] == '\n')
 			{
@@ -22,33 +24,33 @@ int main() {
 		}
 	}
 
-	for(int j = 0; j <= column; j++) {
-		for(int i = 0; i < line; i++) {
-
-                trans_arr[j][i] = arr[i][j];
+	for(int j = 0; j <= column; j++)
+	{
+		for(int i = 0; i < line; i++)
+		{
+            trans_arr[j][i] = arr[i][j];
 		}
 	}
 
 	char tmp = 0;
-
-
-	for (int i = 0; i <= (column / 2); i++) {
-		for (int j = 0; j < line; j++) {
+	for (int i = 0; i <= (column / 2); i++)
+	{
+		for (int j = 0; j < line; j++)
+		{
 			tmp = trans_arr[i][j];
 			trans_arr[i][j] = trans_arr[column - i][j];
 			trans_arr[column - i][j] = tmp;
 		}
-
     }
 
-	for (int i = 0; i <= column; i++) {
-		for (int j = 0; j < line; j++) {
+	for (int i = 0; i <= column; i++)
+	{
+		for (int j = 0; j < line; j++)
+		{
 			printf("%c", trans_arr[i][j]);
 		}
 		printf("\n");
 	}
 
-
 	return 0;
-
 }
